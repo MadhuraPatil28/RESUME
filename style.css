@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+      color: darkslategray;
+      font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+      line-height: 25px;
+  }
+
+  body{
+      padding: 50px;
+      background:black;
+  }
+
+  #image{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    float: left;
+  }
+  .profile{
+      text-align: left;
+
+  }
+.contact{
+    float: right;
+    width: 900px;
+}
+  }
+  h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+  }
+h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    border-top:3px solid lightslategrey;
+    border-bottom:3px solid lightslategrey;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+h3{
+    color: teal;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+p{
+    line-height: 1.5;
+}
+
+}
+section+section{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+ul{
+    list-style: none;
+}
+
+
+
+}
+.contact>ul{
+  display: grid;
+  
+}
+  .contact ul{
+      margin-top: -5px;
+      
+}
+
+
+
+  .links li{
+      border-bottom:1px solid lightslategrey;
+      padding: 5px;
+  }
+
+.skills>ul{
+    display: grid;
+    grid-gap:16px;
+}
+.skillItems{
+    padding-left: 20px ;
+    list-style-type:circle;
+}
+.language>ul{
+    list-style:circle;
+}
+
+
+.record .event{
+    display: grid;
+    padding-top: 10px;
+  
+}
+.record .content{
+    border-left: 1px solid lightslategrey;
+    padding-left: 16px;
+    margin-left: 16px;
+}
+.content> p{
+    margin-bottom: 5px;
+    color: turquoise;
+}
+
+.resume{
+    display: grid;
+    grid-gap: 30px;
+    background-color: white;
+    padding: 16px;
+    border: teal 2px solid;
+    border-top: none;
+}
+
+  
